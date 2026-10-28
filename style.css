@@ -65,35 +65,44 @@ a {
         color: var(--lighter-gray);
         transition: var(--theme-transition);
     }
+
     a {
         color: var(--link-light);
+        transition: var(--theme-transition);
     }
+
     a.icon {
         color: var(--text-light);
     }
+
     a.icon:hover {
         background-color: var(--color);
         color: var(--text-dark);
     }
+
     .fancy {
         color: var(--text-light);
         transition: color 200ms ease-out;
     }
+
     .fancy:hover {
         background-color: var(--text-highlight);
         color: var(--text-dark);
     }
+
     .theme-button {
         border-color: var(--lighter-gray);
         background-color: var(--bg-light);
         color: var(--text-light);
         transition: var(--theme-transition);
     }
+
     .theme-button:hover {
         border-color: var(--darker-gray);
         background-color: var(--darker-gray);
         color: var(--text-dark);
     }
+
     .body-container {
         border-color: var(--lighter-gray);
         transition: var(--theme-transition);
@@ -104,39 +113,49 @@ a {
     transition: var(--theme-transition);
     background-color: var(--bg-dark);
     color: var(--text-dark);
+
     .editors-note {
         color: var(--dark-gray);
         transition: var(--theme-transition);
     }
+
     a {
         color: var(--link-dark);
+		transition: var(--theme-transition);
     }
+
     a.icon {
         color: var(--text-dark);
     }
+
     a.icon:hover {
         background-color: var(--color);
         color: var(--darker-gray);
     }
+
     .fancy {
         color: var(--text-dark);
         transition: color 200ms ease-out;
     }
+
     .fancy:hover {
         color: var(--text-highlight);
         background-color: var(--bg-light);
     }
+
     .theme-button {
         border-color: var(--dark-gray);
         background-color: var(--bg-dark);
         color: var(--text-dark);
         transition: var(--theme-transition);
     }
+
     .theme-button:hover {
         border-color: var(--bg-light);
         background-color: var(--bg-light);
         color: var(--text-light);
     }
+
     .body-container {
         border-color: var(--dark-gray);
         transition: var(--theme-transition);
@@ -193,6 +212,7 @@ a {
     background-color: var(--color);
     margin: 0px;
 }
+
 .tag:hover {
     opacity: 50%;
 }
